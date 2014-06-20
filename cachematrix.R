@@ -33,11 +33,11 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 
-# This function checks if an inversed matrix cached already for
+# This function checks if an inversed matrix is in cache already for
 # the matrix in the calling function, in this project it is 
 # "makeCacheMatrix". If inversed matrix is in cache, then returnes it to the 
 # calling function, with a message.  Otherwise, it creates the 
-# Inverse of the suplied matrix and returns the inverse to the
+# Inverse of the supplied matrix and returns the inverse to the
 # calling function.
 
 cacheSolve <- function(x, ...) {
